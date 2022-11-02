@@ -9,4 +9,4 @@ Initial commands
   conda activate "name"
   
 Run server:
-  uvicorn app:app reload
+  uvicorn app:app --reload
