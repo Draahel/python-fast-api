@@ -7,3 +7,6 @@ Packages:
 Initial commands
   conda create --name "name" python=3 <br>
   conda activate "name"
+  
+Run server:
+  uvicorn app:app reload
